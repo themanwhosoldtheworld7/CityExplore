@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_895695e8937db79203de10c7047561d0 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_895695e8937db79203de10c7047561d0" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_895695e8937db79203de10c7047561d0 = L.map(
+                "map_895695e8937db79203de10c7047561d0",
+                {
+                    center: [48.1351253, 11.5819806],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 14,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_5713925c1dc1542136b79278c5b89050 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_895695e8937db79203de10c7047561d0);
+        
+    
+            var marker_4f42fe000b9e9f58419d7f2d007bc867 = L.marker(
+                [48.1417978, 11.579486],
+                {}
+            ).addTo(map_895695e8937db79203de10c7047561d0);
+        
+    
+        var popup_085096dd79aab03cb295463a40b27b74 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_ce0979a5cb897574b836c430bca45a5f = $(`<div id="html_ce0979a5cb897574b836c430bca45a5f" style="width: 100.0%; height: 100.0%;">Munich Residenz: 1. It is the largest city palace in Germany. 2. It was the seat of government and residence of the Bavarian dukes, electors and kings from 1508 until 1918. 3. It houses the world's largest collection of Late Gothic tapestries. 4. It has over 130 rooms and 10 courtyards. 5. It is located in the center of Munich and is a mix of Renaissance, Baroque and Rococo styles.</div>`)[0];
+                popup_085096dd79aab03cb295463a40b27b74.setContent(html_ce0979a5cb897574b836c430bca45a5f);
+            
+        
+
+        marker_4f42fe000b9e9f58419d7f2d007bc867.bindPopup(popup_085096dd79aab03cb295463a40b27b74)
+        ;
+
+        
+    
+    
+            var marker_49e105d9ddf8ef2ffcd0e4bed6692964 = L.marker(
+                [48.1396336, 11.5795542],
+                {}
+            ).addTo(map_895695e8937db79203de10c7047561d0);
+        
+    
+        var popup_b10506699820a8f0f77d8f3dce593f9c = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_79393c31a8b20b3e6da6d5871818e263 = $(`<div id="html_79393c31a8b20b3e6da6d5871818e263" style="width: 100.0%; height: 100.0%;">Nationaltheater: 1. Nationaltheater in Munich is the largest theater in Germany. 2. It is also one of the busiest theaters in the world, with over 1,000 performances per year. 3. Nationaltheater has been home to some of the most famous operas and ballets in history, including Wagner's Ring Cycle and Tchaikovsky's Swan Lake. 4. The theater is also known for its incredible acoustics, which have been praised by musicians and audiences alike. 5. Nationaltheater is a symbol of Bavarian culture and pride, and is one of the most popular tourist destinations in Munich.</div>`)[0];
+                popup_b10506699820a8f0f77d8f3dce593f9c.setContent(html_79393c31a8b20b3e6da6d5871818e263);
+            
+        
+
+        marker_49e105d9ddf8ef2ffcd0e4bed6692964.bindPopup(popup_b10506699820a8f0f77d8f3dce593f9c)
+        ;
+
+        
+    
+    
+            var marker_4b1243263770be8b36ca1f2bc4fc104a = L.marker(
+                [48.1376098, 11.5799253],
+                {}
+            ).addTo(map_895695e8937db79203de10c7047561d0);
+        
+    
+        var popup_cd611eab0df6ff725c84a7744b42b3a8 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_0d658eae584e49fb3647a0720f1631a4 = $(`<div id="html_0d658eae584e49fb3647a0720f1631a4" style="width: 100.0%; height: 100.0%;">Hofbräuhaus: 1. The Hofbräuhaus am Platzl is a beer hall in Munich, Germany, originally built in 1589 by Duke Maximilian I as an extension of the Hofbräuhaus Brewery. 2. The Hofbräuhaus is one of the most famous beer halls in the world and has been visited by such famous people as King Ludwig II, Mozart, and Adolf Hitler. 3. The Hofbräuhaus has a unique atmosphere, with live music and traditional Bavarian food and beer. 4. The Hofbräuhaus is open all year round, and has a large outdoor beer garden in the summer months. 5. The Hofbräuhaus is a popular tourist destination, and is one of the most popular attractions in Munich.</div>`)[0];
+                popup_cd611eab0df6ff725c84a7744b42b3a8.setContent(html_0d658eae584e49fb3647a0720f1631a4);
+            
+        
+
+        marker_4b1243263770be8b36ca1f2bc4fc104a.bindPopup(popup_cd611eab0df6ff725c84a7744b42b3a8)
+        ;
+
+        
+    
+    
+            var marker_a6b19e0785ba9309bf4f797f451b37da = L.marker(
+                [48.1537024, 11.5930924],
+                {}
+            ).addTo(map_895695e8937db79203de10c7047561d0);
+        
+    
+        var popup_e57690bda013e5c9f7c646d803218e7d = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_2dd05cc033272d562fe288b0a5559ccf = $(`<div id="html_2dd05cc033272d562fe288b0a5559ccf" style="width: 100.0%; height: 100.0%;">Englischer Garten: 1. The Englischer Garten is one of the world's largest urban public parks. 2. The park was created in 1789 by Duke Charles Theodore. 3. The park is home to the Chinese Tower, a beer garden, and a nudist area. 4. The park is popular with locals and tourists alike, and is a great place to relax or take a walk. 5. The Englischer Garten is one of Munich's most beloved landmarks.</div>`)[0];
+                popup_e57690bda013e5c9f7c646d803218e7d.setContent(html_2dd05cc033272d562fe288b0a5559ccf);
+            
+        
+
+        marker_a6b19e0785ba9309bf4f797f451b37da.bindPopup(popup_e57690bda013e5c9f7c646d803218e7d)
+        ;
+
+        
+    
+    
+            var marker_b405470af35ae3961a61637145d66ec1 = L.marker(
+                [48.138631, 11.5736254],
+                {}
+            ).addTo(map_895695e8937db79203de10c7047561d0);
+        
+    
+        var popup_f8af810634a9a4316cc3b639c886dfd5 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_ae2a678729d17388dc1c392446570d71 = $(`<div id="html_ae2a678729d17388dc1c392446570d71" style="width: 100.0%; height: 100.0%;">Frauenkirche: 1. Frauenkirche is a Catholic church in Munich, Germany, and one of the city's most famous landmarks. 2. The church is dedicated to the Blessed Virgin Mary and was designed by architect Dominikus Zimmermann. 3. Construction of the church began in 1745 and was completed in 1748. 4. The church has two large towers, each measuring 99 metres in height. 5. The Frauenkirche is one of the few buildings in Munich that survived the Allied bombing during World War II.</div>`)[0];
+                popup_f8af810634a9a4316cc3b639c886dfd5.setContent(html_ae2a678729d17388dc1c392446570d71);
+            
+        
+
+        marker_b405470af35ae3961a61637145d66ec1.bindPopup(popup_f8af810634a9a4316cc3b639c886dfd5)
+        ;
+
+        
+    
+    
+            var marker_2442c6ec0536aac2fb9afaa408759b35 = L.marker(
+                [48.1370339, 11.5758134],
+                {}
+            ).addTo(map_895695e8937db79203de10c7047561d0);
+        
+    
+        var popup_b761c094b7157fe0f1f4eb6da0ded31d = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_e93afb841dedc75c061af1795bff27c8 = $(`<div id="html_e93afb841dedc75c061af1795bff27c8" style="width: 100.0%; height: 100.0%;">Marienplatz: 1. Marienplatz is the central square in the city of Munich, Germany. 2. It has been the city's main square since 1158. 3. The square is named after the Mariensäule, a Marian column in the centre of the square, erected in 1638 to celebrate the end of Swedish occupation. 4. The square is also home to the New Town Hall, which houses the office of the Mayor of Munich. 5. The square is a popular tourist destination, with many visitors climbing the tower of the New Town Hall for a panoramic view of the city.</div>`)[0];
+                popup_b761c094b7157fe0f1f4eb6da0ded31d.setContent(html_e93afb841dedc75c061af1795bff27c8);
+            
+        
+
+        marker_2442c6ec0536aac2fb9afaa408759b35.bindPopup(popup_b761c094b7157fe0f1f4eb6da0ded31d)
+        ;
+
+        
+    
+    
+            var marker_5fbee297b99571aec7566a4755a9208a = L.marker(
+                [48.1354703, 11.5763682],
+                {}
+            ).addTo(map_895695e8937db79203de10c7047561d0);
+        
+    
+        var popup_6894bdb9b6cf05d2b133ec9d7bfd8fea = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_d6636b59cc1d4ee4f8b5beb547462cba = $(`<div id="html_d6636b59cc1d4ee4f8b5beb547462cba" style="width: 100.0%; height: 100.0%;">Viktualienmarkt: 1. Viktualienmarkt is one of the most popular markets in Munich, with over 140 stalls offering a wide variety of fresh produce, meats, cheeses, and other delicacies. 2. The market dates back to 1807, when King Maximilian I decreed that a market be established to provide fresh food for the city's residents. 3. Viktualienmarkt is particularly well known for its wide selection of Bavarian beers, with over 30 different types available. 4. The market is also home to the "Munich Knife", the city's symbol. 5. Viktualienmarkt is open Monday to Saturday from 8am to 8pm.</div>`)[0];
+                popup_6894bdb9b6cf05d2b133ec9d7bfd8fea.setContent(html_d6636b59cc1d4ee4f8b5beb547462cba);
+            
+        
+
+        marker_5fbee297b99571aec7566a4755a9208a.bindPopup(popup_6894bdb9b6cf05d2b133ec9d7bfd8fea)
+        ;
+
+        
+    
+    
+            var marker_9138a604aecbede6ae7d8ec7b253476a = L.marker(
+                [48.1351253, 11.5819806],
+                {}
+            ).addTo(map_895695e8937db79203de10c7047561d0);
+        
+    
+        var popup_9cce9082d0d5123cdc8ce2432d529f39 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_747be74e58cd740abf40ce4463acdec7 = $(`<div id="html_747be74e58cd740abf40ce4463acdec7" style="width: 100.0%; height: 100.0%;">Deutsches Museum: 1. Deutsches Museum is the world’s largest museum of science and technology. 2. It was founded in 1903 by Oskar von Miller, and has over 28,000 exhibit items on display. 3. Deutsches Museum is home to the world’s first jet engine, developed by Hans von Ohain in 1939. 4. The museum also has an extensive collection of locomotives, automobiles, and aircraft. 5. Deutsches Museum is located on an island in the Isar River, and is accessible by foot, bike, or public transportation.</div>`)[0];
+                popup_9cce9082d0d5123cdc8ce2432d529f39.setContent(html_747be74e58cd740abf40ce4463acdec7);
+            
+        
+
+        marker_9138a604aecbede6ae7d8ec7b253476a.bindPopup(popup_9cce9082d0d5123cdc8ce2432d529f39)
+        ;
+
+        
+    
+</script>
+</html>
